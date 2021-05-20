@@ -6,7 +6,7 @@ Text diff scripts in VBA (Word), partially ported from Python difflib.SequenceMa
 Implemented methods:
 - set_seq1
 - set_seq2
-- set_seq2
+- set_seqs
 - find_longest_match
 - get_matching_blocks
 - sort_blocks *
@@ -67,5 +67,5 @@ and native python goes:
 
 Another bas module "WordSeqApplyer" has a sub procedure named "apply_opcode".
 It can rewrite the text in document with revision according to the opcode.
-For more details, please see the file "test.docm", and run "main".
+For more details, please see the file "test.docm", press "Alt+F8" and run "WordSeqApplyer.main".
 

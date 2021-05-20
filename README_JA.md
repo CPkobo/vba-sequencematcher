@@ -6,7 +6,7 @@ Pythonのdifflib.SequenceMathcerの、VBA （Word）部分移植版です。
 以下のメソッドを実装しています。
 - set_seq1
 - set_seq2
-- set_seq2
+- set_seqs
 - find_longest_match
 - get_matching_blocks
 - sort_blocks *
@@ -68,5 +68,5 @@ Debug.Print seq.real_quick_ratio
 
 もう一つのbasモジュール"WordSeqApplyer"には、"apply_opcode"というサブプロシージャがあります。
 これを呼び出すことで、Wordファイル上に履歴を残しながら差分箇所を反映することができます。
-詳細については、"test.docm"を開き、"main"を実行してみてください。
+詳細については、"test.docm"を開き、Alt+F8を押して、"WordSeqApplyer.main"を実行してみてください。
 
